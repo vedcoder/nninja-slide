@@ -1,0 +1,29 @@
+.slide-container {
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+
+.slide {
+  height: 500px;
+  width: 100%;
+  float: left;
+  margin: auto;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+}
+
+.img {
+  margin-top: 30px;
+}
+
+.power {
+  color: white;
+  font-size: 1.2em;
+  font-family: cursive;
+}
+
+.hide {
+  display:none
+}
