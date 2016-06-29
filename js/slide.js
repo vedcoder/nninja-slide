@@ -1,14 +1,10 @@
+var left=0;
 
-function rss() {
-  var nos=document.querySelectorAll('.slide');
-  for (var i = 0; i < nos.length; i++) {
-    console.log("in loop"+i);
-    nos[i].classList.remove("hide");
-    sleep(1000);
-    nos[i].classList.add("hide");
+function slide(dir) {
+  if (dir=="left") {
+    left=left-100;
+  } else {
+    left=left+100;
   }
-}
-
-window.onload=function () {
-  rss();
+  document.querySelector('.slide-container').style.left=left+"%";
 }
